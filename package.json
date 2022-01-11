@@ -1,7 +1,7 @@
 {
-  "name": "Folio",
+  "name": "stivo",
   "version": "0.1.0",
-  "homepage": "http://follio-react.wpocean.com",
+  "homepage": "http://stivo-react.wpocean.com",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.4.1",
