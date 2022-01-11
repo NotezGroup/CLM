@@ -1,5 +1,5 @@
 import React, { Suspense, useRef } from 'react'
-import {Link}  from 'react-router-dom';
+// import {Link}  from 'react-router-dom';
 import slimg from '../../images/slider/hero-shape2.png'
 
 import './style.css'

@@ -13,7 +13,7 @@ import './css/themify-icons.css';
 import './fonts/futura.css';
 import 'react-modal-video/scss/modal-video.scss';
 import "slick-carousel/slick/slick.css";
-import 'react-id-swiper/lib/styles/scss/swiper.scss';
+// import 'react-id-swiper/lib/styles/scss/swiper.scss';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
