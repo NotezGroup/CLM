@@ -13,9 +13,9 @@ const Emergencey = () => {
                                     <i className="fi flaticon-heart"></i>
                                 </div>
                                 <div className="emergencey-text">
-                                    <h2>Emergency Service</h2>
-                                    <p>An emergency department (ED), also known as an accident & emergency department (A&E), </p>
-                                    <span>Call : +1-2345-6789-99</span>
+                                    <h2>Akut Service</h2>
+                                    <p>Ett akut ärende, t.ex. vid sports olycka eller vad som, ring akutmottagningen, vid kiropraktiska ärenden </p>
+                                    <span>Ring : +46700 00 00 00</span>
                                 </div>
                             </div>
                         </div>
@@ -25,10 +25,10 @@ const Emergencey = () => {
                                     <i className="fi flaticon-time"></i>
                                 </div>
                                 <div className="emergencey-text">
-                                    <h2>Opening Hour</h2>
+                                    <h2>Öppettider</h2>
                                     <ul>
-                                        <li>Mon - Fri<span>08:00 - 21:00</span></li>
-                                        <li>Sat - Sun<span>08:00 - 19:00</span></li>
+                                        <li>Mån - Fre<span>08:00 - 21:00</span></li>
+                                        <li>Lör - Sön<span>08:00 - 19:00</span></li>
                                     </ul>
                                 </div>
                             </div>

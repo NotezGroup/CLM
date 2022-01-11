@@ -13,7 +13,7 @@ const ContactArea = (props) => {
                 <div className="container">
                     <div className="col-12">
                         <div className="section-title text-center">
-                            <h2>Let’s Talk</h2>
+                            <h2>Kontakt</h2>
                         </div>
                     </div>
                     <div className="row">
@@ -21,42 +21,44 @@ const ContactArea = (props) => {
                             <div className="row">
                                 <div className="col col-lg-6 col-md-12 col-12">
                                     <div className="wpo-contact-form">
-                                        <h2>Get In Touch</h2>
+                                        <h2>
+                                            Kom i kontakt
+                                        </h2>
                                         <ContactForm/>
                                     </div>
                                 </div>
                                 <div className="col col-lg-6 col-md-12 col-12">
                                     <div className="wpo-contact-info">
                                         <div className="info-item">
-                                            <h2>25 North Street,Dubai</h2>
+                                            <h2>Emporia Hyllie, Malmö</h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">
                                                     <img src={contact1} alt=""/>
                                                 </div>
                                                 <div className="info-text">
-                                                    <span>Office Address</span>
+                                                    <span>Plats</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="info-item">
-                                            <h2>info@edefytheme.com</h2>
+                                            <h2>info@clm.se</h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">
                                                     <img src={contact2} alt=""/>
                                                 </div>
                                                 <div className="info-text">
-                                                    <span>Official Mail</span>
+                                                    <span>Email</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="info-item">
-                                            <h2>+91 256-987-239</h2>
+                                            <h2>+46700 00 00 00</h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">
                                                     <img src={contact3} alt=""/>
                                                 </div>
                                                 <div className="info-text">
-                                                    <span>Official Phone</span>
+                                                    <span>Telefon</span>
                                                 </div>
                                             </div>
                                         </div>

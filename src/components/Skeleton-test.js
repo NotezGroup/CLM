@@ -10,6 +10,7 @@ import { useFrame } from "@react-three/fiber"
 
 
 export default function Model({ scroll, ...props }) { 
+  
   //const t = useRef(0)
   const group = useRef()
   const { nodes, materials, animations } = useGLTF("skeleton-test.glb")
@@ -17,13 +18,12 @@ export default function Model({ scroll, ...props }) {
   //const extras = { receiveShadow: true, castShadow: true, "material-envMapIntensity": 0.2 }
   
   //useEffect(() => void (console.log(actions), actions.rigAction.play().paused = true), [])
-  useEffect(() => (actions.CameraAction.play().paused = true))
+  useEffect(() => (actions["CameraAction.001"].play().paused = true))
 
   useFrame(() => {
    // actions.rigAction.time = THREE.MathUtils.lerp(actions.rigAction.time, actions.rigAction.getClip().duration * scroll.current, 0.05)
-    actions.CameraAction.time = THREE.MathUtils.lerp(actions.CameraAction.time, actions.CameraAction.getClip().duration * scroll.current, 0.05)
+   actions["CameraAction.001"].time = THREE.MathUtils.lerp(actions["CameraAction.001"].time, actions["CameraAction.001"].getClip().duration * scroll.current, 0.05)
   }, [])
-
 
   
   return (

@@ -84,13 +84,13 @@ class ContactForm extends Component {
                 <div className="row">
                     <div className="col-lg-6 col-md-12">
                         <div className="form-field">
-                            <input value={name} onChange={this.changeHandler} type="text" name="name" placeholder="Name"/>
+                            <input value={name} onChange={this.changeHandler} type="text" name="name" placeholder="Namn"/>
                             <p>{error.name ? error.name : ''}</p>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
                         <div className="form-field">
-                            <input value={lastname} onChange={this.changeHandler} type="text" name="lastname" placeholder="Lastname"/>
+                            <input value={lastname} onChange={this.changeHandler} type="text" name="lastname" placeholder="Efternamn"/>
                             <p>{error.lastname ? error.lastname : ''}</p>
                         </div>
                     </div>
@@ -102,18 +102,18 @@ class ContactForm extends Component {
                     </div>
                     <div className="col-lg-12">
                         <div className="form-field">
-                            <input onChange={this.changeHandler} value={subject} type="text" name="subject" placeholder="Subject"/>
+                            <input onChange={this.changeHandler} value={subject} type="text" name="subject" placeholder="Ämne"/>
                             <p>{error.subject ? error.subject : ''}</p>
                         </div>
                     </div>
                     <div className="col-lg-12">
                         <div className="form-field">
-                            <textarea name="message" placeholder="Message"></textarea>
+                            <textarea name="message" placeholder="Meddelande"></textarea>
                         </div>
                     </div>
                     <div className="col-lg-12">
                         <div className="form-submit">
-                            <button type="submit" className="theme-btn">Send Message</button>
+                            <button type="submit" className="theme-btn">Skicka meddelande</button>
                         </div>
                     </div>
                 </div>

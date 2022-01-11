@@ -24,7 +24,7 @@ class TestSlider2 extends Component {
                 <div className="container">
                     <div className="col-12">
                         <div className="section-title">
-                            <h2>Testimonial</h2>
+                            <h2>Recensioner</h2>
                         </div>
                     </div>
                     <div className="wpo-testimonial-main">
@@ -32,11 +32,11 @@ class TestSlider2 extends Component {
                             <div className="wpo-testimonial-wrap">
                                 <div className="wpo-testimonial-item">
                                     <div className="wpo-testimonial-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+                                        <p>Jag har varit under en behandling här hos Stivo och här har jag känt mig väldigt välkommen och skulle vilja komma hit igen, han är duktig </p>
                                         <div className="wpo-testimonial-item2">
                                             <div className="wpo-testimonial-thumb">
-                                                <h4>John Harry</h4>
-                                                <span>CEO of Moderntern Technology</span>
+                                                <h4>Ali Hammoude</h4>
+                                                <span>Webbutvecklare på hög nivå</span>
                                             </div>
                                         </div>
                                     </div>
@@ -45,11 +45,11 @@ class TestSlider2 extends Component {
                             <div className="wpo-testimonial-wrap">
                                 <div className="wpo-testimonial-item">
                                     <div className="wpo-testimonial-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+                                        <p>Jag har varit under en behandling här hos Stivo och här har jag känt mig väldigt välkommen och skulle vilja komma hit igen, han är duktig </p>
                                         <div className="wpo-testimonial-item2">
                                             <div className="wpo-testimonial-thumb">
-                                                <h4>John Harry</h4>
-                                                <span>CEO of Moderntern Technology</span>
+                                                <h4>Taleb Hammoude</h4>
+                                                <span>Alis chef</span>
                                             </div>
                                         </div>
                                     </div>
@@ -58,11 +58,11 @@ class TestSlider2 extends Component {
                             <div className="wpo-testimonial-wrap">
                                 <div className="wpo-testimonial-item">
                                     <div className="wpo-testimonial-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+                                        <p>Jag har varit under en behandling här hos Stivo och här har jag känt mig väldigt välkommen och skulle vilja komma hit igen, han är duktig </p>
                                         <div className="wpo-testimonial-item2">
                                             <div className="wpo-testimonial-thumb">
-                                                <h4>John Harry</h4>
-                                                <span>CEO of Moderntern Technology</span>
+                                                <h4>Stivo Kuchak</h4>
+                                                <span>CEO of CLM</span>
                                             </div>
                                         </div>
                                     </div>

@@ -9,31 +9,31 @@ const ServiceSection3 = (props) => {
             <div className="container">
                 <div className="col-12">
                     <div className="section-title-2 text-center">
-                        <h2>This is what I do.</h2>
+                        <h2>Det här är vad jag gör.</h2>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
+                <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
                         <div className="work-wrap">
                             <div className="work-icon">
-                                <i className="fi flaticon-lung"></i>
+                                <i className="fi flaticon-accident"></i>
                             </div>
                             <div className="work-content">
-                                <h2>Lung Diseases</h2>
-                                <p>Our master plans provide a comprehensive look at where an organization is today.</p>
-                                <Link to="/service-details">Read More</Link>
+                                <h2>Sports Injury</h2>
+                                <p>Jag gör mitt bästa för att få dig att komma ut härifrån nöjd, hoppas på en super nöjda kunder</p>
+                                <Link to="/service-details">Läs mer</Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
                         <div className="work-wrap">
                             <div className="work-icon">
-                                <i className="fi flaticon-heart-1"></i>
+                                <i className="fi flaticon-lung"></i>
                             </div>
                             <div className="work-content">
-                                <h2>Heart Diseases</h2>
-                                <p>Our master plans provide a comprehensive look at where an organization is today.</p>
-                                <Link to="/service-details">Read More</Link>
+                                <h2>Andning</h2>
+                                <p>Jag gör mitt bästa för att få dig att komma ut härifrån nöjd, hoppas på en super nöjda kunder</p>
+                                <Link to="/service-details">Läs mer</Link>
                             </div>
                         </div>
                     </div>
@@ -43,9 +43,21 @@ const ServiceSection3 = (props) => {
                                 <i className="fi flaticon-bone"></i>
                             </div>
                             <div className="work-content">
-                                <h2>Orthopaedic</h2>
-                                <p>Our master plans provide a comprehensive look at where an organization is today.</p>
-                                <Link to="/service-details">Read More</Link>
+                                <h2>Ben</h2>
+                                <p>Jag gör mitt bästa för att få dig att komma ut härifrån nöjd, hoppas på en super nöjda kunder</p>
+                                <Link to="/service-details">Läs mer</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
+                        <div className="work-wrap">
+                            <div className="work-icon">
+                                <i className="fi flaticon-heart-1"></i>
+                            </div>
+                            <div className="work-content">
+                                <h2>Hälsan</h2>
+                                <p>Jag gör mitt bästa för att få dig att komma ut härifrån nöjd, hoppas på en super nöjda kunder</p>
+                                <Link to="/service-details">Läs mer</Link>
                             </div>
                         </div>
                     </div>
@@ -55,9 +67,9 @@ const ServiceSection3 = (props) => {
                                 <i className="fi flaticon-scalpel"></i>
                             </div>
                             <div className="work-content">
-                                <h2>General Surgery</h2>
-                                <p>Our master plans provide a comprehensive look at where an organization is today.</p>
-                                <Link to="/service-details">Read More</Link>
+                                <h2>Jobb</h2>
+                                <p>Jag gör mitt bästa för att få dig att komma ut härifrån nöjd, hoppas på en super nöjda kunder</p>
+                                <Link to="/service-details">Läs mer</Link>
                             </div>
                         </div>
                     </div>
@@ -67,21 +79,9 @@ const ServiceSection3 = (props) => {
                                 <i className="fi flaticon-drug"></i>
                             </div>
                             <div className="work-content">
-                                <h2>Pharmacy</h2>
-                                <p>Our master plans provide a comprehensive look at where an organization is today.</p>
-                                <Link to="/service-details">Read More</Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
-                        <div className="work-wrap">
-                            <div className="work-icon">
-                                <i className="fi flaticon-accident"></i>
-                            </div>
-                            <div className="work-content">
-                                <h2>Sports Injury</h2>
-                                <p>Our master plans provide a comprehensive look at where an organization is today.</p>
-                                <Link to="/service-details">Read More</Link>
+                                <h2>Medicinsk</h2>
+                                <p>Jag gör mitt bästa för att få dig att komma ut härifrån nöjd, hoppas på en super nöjda kunder</p>
+                                <Link to="/service-details">Läs mer</Link>
                             </div>
                         </div>
                     </div>

@@ -37,6 +37,11 @@
     border: 1px solid #fe3e57;
 }
 
+
+.skelett{
+    position: absolute;
+}
+
 /*==========================================
 for navbar and other
 ============================================*/
@@ -134,6 +139,10 @@ for navbar and other
 
 
 
+
+
+
+
 /*==========================================
 #2.0 Home-style-2
 ============================================*/
@@ -224,8 +233,12 @@ for navbar and other
     bottom: 6px;
 }
 
-.wpo-hero-style-7 .slide-img {
-    right: 250px;
+.wpo-hero-style-7 .skelett {
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    
 }
 
 .wpo-hero-style-9 .slide-img {
