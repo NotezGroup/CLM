@@ -10,7 +10,8 @@ const Footer = (props) => {
                     <div className="row">
                         <div className="col-lg-2 col-md-3 col-sm-3 col-12">
                             <div className="footer-logo">
-                                 <img src={props.ftLogo} alt=""/>
+                                 {/* <img src={props.ftLogo} alt=""/> */}
+                                 <h1 className='logotyp'>LOGO</h1>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-9 col-sm-9 col-12">

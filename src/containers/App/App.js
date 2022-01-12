@@ -1,17 +1,20 @@
 import React from 'react';
-import {BrowserRouter, Switch} from "react-router-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Scrollbar from '../../components/scrollbar'
-import Routes from "../__Routes";
 import '../../css/style.css';
 import '../../css/responsive.css';
+
+import HomePage8 from "../HomePage8";
+
+
 
 function App() {
   return (
     <BrowserRouter>
         <div className="App" id='scrool'>
-            <Switch>
-                <Routes />
-            </Switch>
+            <Routes>
+               <Route path="/" exact element={<HomePage8 />}/>
+            </Routes>
             <Scrollbar/>
         </div>
     </BrowserRouter>
