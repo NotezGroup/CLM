@@ -1,7 +1,20 @@
-
-.work-area {
-    background: #f9f9f9;
+.work-area-2 {
+    background: #eeeeee;
 }
+
+.work-area-2 .container .work-wrap {
+    position: relative;
+    z-index: 6;
+}
+
+
+.work-area-2 .work-content h2,
+.work-area-3 .work-content h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+
 
 .work-wrap {
     background: #fff;
@@ -9,6 +22,7 @@
     text-align: center;
     box-shadow: 0px 0px 20px 0px rgba(52, 52, 52, 0.1);
     margin-bottom: 30px;
+    z-index: 99;
 }
 
 .work-icon {
@@ -47,6 +61,13 @@
     background: #fe3e57;
     border: 1px solid #fe3e57;
 }
+
+.section-title-2 {
+    position: relative;
+    z-index: 6;
+}
+
+
 
 @media(max-width: 530px) {
     .work-wrap {

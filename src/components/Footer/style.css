@@ -1,3 +1,5 @@
+
+
 .wpo-footer-area {
     background: #121151;
 }
@@ -163,6 +165,8 @@
 
 .wpo-footer-area3 {
     background: #eeeeee;
+    position: relative;
+    z-index: 6;
 }
 
 .wpo-footer-area3 .wpo-footer-menu ul li a {

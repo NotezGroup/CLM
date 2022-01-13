@@ -1,3 +1,5 @@
+
+
 .wpo-hero-style-3 .slide-caption h2,
 .wpo-hero-style-10 .slide-caption h2,
 .wpo-hero-style-4 .slide-caption h2,
@@ -196,13 +198,16 @@ for navbar and other
 
 .slide-img {
     position: fixed;
-    z-index: 100;
-    left: 450px;
+    left: 0px;
     top: 0px;
     height: 100%;
     width: 100%;
-    opacity: 40%;
+    opacity: 100%;
+    z-index: 1;
+    opacity: 70%;
 }
+
+
 
 
 
@@ -232,7 +237,7 @@ for navbar and other
 
 .wpo-hero-style-6,
 .wpo-hero-style-7 {
-    height: 800px;
+    height: 650px;
 }
 
 

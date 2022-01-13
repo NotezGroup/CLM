@@ -65,6 +65,7 @@
 
 .wpo-testimonial-main {
     position: relative;
+    z-index: 6;
 }
 
 .wpo-testimonial-main:before {
@@ -303,6 +304,8 @@
 .wpo-testimonial-area-7 .section-title h2,
 .wpo-testimonial-area-4 .section-title h2{
     color: #131058;
+    position: relative;
+    z-index: 6;
 }
 
 
