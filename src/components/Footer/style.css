@@ -84,9 +84,11 @@
 
 .wpo-footer-bottom,
 .wpo-footer-bottom5 {
-    padding: 30px 0;
+    padding: 10px 10px;
     background: #0d0c4c;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .wpo-footer-bottom span,
