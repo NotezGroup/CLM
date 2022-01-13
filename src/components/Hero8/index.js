@@ -18,7 +18,7 @@ const Hero8 = ( props ) => {
     
     const scroll = useRef(scrollPosition)
 
-    scroll.current = scrollPosition/200;
+    scroll.current = scrollPosition/3700;
     
     return(<>
         <section className="wpo-hero-style-7">

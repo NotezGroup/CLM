@@ -13,12 +13,12 @@ export default function Model({ scroll, ...props }) {
   
   //const t = useRef(0)
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF("skeleton-test.glb")
+  const { nodes, materials, animations } = useGLTF("skeleton-testar.glb")
   const { actions/*, mixer*/ } = useAnimations(animations, group)
   //const extras = { receiveShadow: true, castShadow: true, "material-envMapIntensity": 0.2 }
   
   //useEffect(() => void (console.log(actions), actions.rigAction.play().paused = true), [])
-  useEffect(() => (actions["CameraAction.001"].play().paused = true))
+  useEffect(() => (/*console.log(actions),*/actions["CameraAction.001"].play().paused = true))
 
   useFrame(() => {
    // actions.rigAction.time = THREE.MathUtils.lerp(actions.rigAction.time, actions.rigAction.getClip().duration * scroll.current, 0.05)
