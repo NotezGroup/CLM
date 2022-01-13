@@ -38,9 +38,7 @@
 }
 
 
-.skelett{
-    position: absolute;
-}
+
 
 /*==========================================
 for navbar and other
@@ -227,10 +225,13 @@ for navbar and other
 
 .slide-img {
     position: absolute;
-    bottom: 0;
-    z-index: 99;
-    right: 250px;
-    bottom: 6px;
+    z-index: -1;
+    left: 180px;
+    top: 0px;
+    bottom: 300px;
+    height: 100%;
+    width: 100%;
+    opacity: 40%;
 }
 
 .wpo-hero-style-7 .skelett {

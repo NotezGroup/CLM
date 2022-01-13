@@ -11,7 +11,7 @@ import { Canvas } from "@react-three/fiber"
 
 const Hero8 = ( props ) => {
      const scroll = useRef(0)
-    return(
+    return(<>
         <section className="wpo-hero-style-7">
             <div className="wpo-slide-wrap">
                 <div className="container">
@@ -29,9 +29,8 @@ const Hero8 = ( props ) => {
                 </div>
                 <div className="wpo-slide-right-img">
                     <div className="slide-img wow fadeInRightSlow" data-wow-duration="2000ms">
-                        <img src={slimg} alt=""/>
-                       <div className='skelett'>
-                       <Canvas
+                        {/* <img src={slimg} alt=""/>*/}
+                        <Canvas
                                 shadows
                                 raycaster={{ computeOffsets: ({ clientX, clientY }) => ({ offsetX: clientX, offsetY: clientY }) }}>
                                 <ambientLight intensity={1} />
@@ -41,10 +40,10 @@ const Hero8 = ( props ) => {
                                 </Suspense>
                         </Canvas>
                     </div>
-                    </div>
                 </div>
             </div>
         </section>
+        </>
     )
 }
 export default Hero8;

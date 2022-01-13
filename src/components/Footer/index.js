@@ -1,6 +1,8 @@
 import React from 'react'
 import './style.css'
 import {Link} from 'react-router-dom'
+import logo from '../header3/clm-logo.png'
+
 
 const Footer = (props) => {
     return(
@@ -10,8 +12,8 @@ const Footer = (props) => {
                     <div className="row">
                         <div className="col-lg-2 col-md-3 col-sm-3 col-12">
                             <div className="footer-logo">
-                                 {/* <img src={props.ftLogo} alt=""/> */}
-                                 <h1 className='logotyp'>LOGO</h1>
+                                 <img src={logo} alt=""/>
+                                 {/* <h1 className='logotyp'>LOGO</h1> */}
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-9 col-sm-9 col-12">

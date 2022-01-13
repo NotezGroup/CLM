@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link}  from 'react-router-dom'
 import MobileMenu from '../../components/MobileMenu'
+import logo from './clm-logo.png'
 
 import './style.css'
 import './stylle.scss'
@@ -11,8 +12,8 @@ const Header = (props) => {
         <div className="container">
             <div className="header-content">
                 <div className="logo">
-                    {/* <Link to="/" title=""><img src={props.Logo} alt=""/></Link> */}
-                    <h1>LOGO</h1>
+                    <Link to="/" title=""><img src={logo} alt=""/></Link>
+                    {/* <h1>LOGO</h1> */}
                 </div>
                 <nav className="d-lg-block d-none header-b">
                     {/* <ul> */}

@@ -28,9 +28,8 @@
     margin-top: 35px;
 }
 
-.footer-logo .logotyp {
-    margin-top: 20px;
-    font-size: 50px;
+.footer-logo {
+    width: 110px;
 }
 
 .wpo-footer-social {
