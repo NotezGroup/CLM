@@ -1,12 +1,12 @@
 
 import React, { Component } from 'react'
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import pimg1 from '../../images/gift/3.png'
-import pimg2 from '../../images/gift/2.png'
-import pimg3 from '../../images/gift/3.png'
-import pimg4 from '../../images/gift/4.png'
+// import pimg1 from '../../images/gift/3.png'
+// import pimg2 from '../../images/gift/2.png'
+// import pimg3 from '../../images/gift/3.png'
+// import pimg4 from '../../images/gift/4.png'
 
 import './style.css'
 
