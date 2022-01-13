@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import ContactForm from '../ContactFrom'
+// import ContactForm from '../ContactFrom'
 
 import contact1 from '../../images/wpo-service/icon5.png' 
 import contact2 from '../../images/wpo-service/icon6.png' 
