@@ -17,8 +17,8 @@ const HomePage8 =() => {
             <Emergencey/>
             <ServiceSection3/>
             <TestSlider2 testclass={'wpo-testimonial-area-4'}/>
-            <ContactArea contactclass={'wpo-contact-area4'}/>
             <PartnerSlider partnerclass={'wpo-client-area2'}/>
+            <ContactArea contactclass={'wpo-contact-area4'}/>
             <Footer Ftclass={'wpo-footer-area3'} ftLogo={FtLogo}/>
         </Fragment>
     )

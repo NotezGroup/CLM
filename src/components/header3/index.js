@@ -66,16 +66,16 @@ const Header = (props) => {
                 </nav>
                 <div className="contact">
                     <div className="cart-search-contact">
-                        <Link to="/contact" className="theme-btnn">
+                        
                            
                             <button className="learn-more">
                                 <span className="circle" aria-hidden="true">
                                 <span className="icon arrow"></span>
                                 </span>
-                                <span className="button-text">Boka tid</span>
+                                <span className="button-text"><a className='a-linked' href="#kalenderSection">Boka tid</a></span>
                             </button>
                             
-                        </Link>
+                        
                     </div>
                 </div>
                 <div className="clearfix"></div>

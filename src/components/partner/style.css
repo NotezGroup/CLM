@@ -52,3 +52,16 @@
     border-top: 1px solid #ebebeb;
     padding: 80px 0 60px;
 }
+
+.kalender {
+	background-color: #eeeeee;
+	padding: 40px;
+}
+
+
+.kalender .kalendertext {
+	font-size: 60px;
+    color: #121127;
+	text-align: center;
+	padding-bottom: 10px;
+}

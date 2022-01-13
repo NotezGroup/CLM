@@ -10,6 +10,8 @@ import pimg4 from '../../images/gift/4.png'
 
 import './style.css'
 
+import Calendar from '../Calendar/CalendarComp'
+
 class PartnerSlider extends Component {
     render() {
         var settings = {
@@ -55,40 +57,45 @@ class PartnerSlider extends Component {
               ]
         };
         return (
-            <div className={`partner-sec section-padding ${this.props.partnerclass}`}>
-                <div className="container">
-                    <div className="partner-sec-details">
-                        <div className="pt-carousel">
-                            <Slider {...settings}>
-                                <div className="partner-col">
-                                    <img src={pimg1} alt=""/>
-                                </div>
-                                <div className="partner-col">
-                                    <img src={pimg2} alt=""/>
-                                </div>
-                                <div className="partner-col">
-                                    <img src={pimg3} alt=""/>
-                                </div>
-                                <div className="partner-col">
-                                    <img src={pimg4} alt=""/>
-                                </div>
-                                <div className="partner-col">
-                                    <img src={pimg1} alt=""/>
-                                </div>
-                                <div className="partner-col">
-                                    <img src={pimg2} alt=""/>
-                                </div>
-                                <div className="partner-col">
-                                    <img src={pimg3} alt=""/>
-                                </div>
-                                <div className="partner-col">
-                                    <img src={pimg4} alt=""/>
-                                </div>
-                            </Slider>
-                        </div>
-                    </div>
-                </div>
+            // <div className={`partner-sec section-padding ${this.props.partnerclass}`}>
+            //     <div className="container">
+            //         <div className="partner-sec-details">
+            //             <div className="pt-carousel">
+            //                 <Slider {...settings}>
+            //                     <div className="partner-col">
+            //                         <img src={pimg1} alt=""/>
+            //                     </div>
+            //                     <div className="partner-col">
+            //                         <img src={pimg2} alt=""/>
+            //                     </div>
+            //                     <div className="partner-col">
+            //                         <img src={pimg3} alt=""/>
+            //                     </div>
+            //                     <div className="partner-col">
+            //                         <img src={pimg4} alt=""/>
+            //                     </div>
+            //                     <div className="partner-col">
+            //                         <img src={pimg1} alt=""/>
+            //                     </div>
+            //                     <div className="partner-col">
+            //                         <img src={pimg2} alt=""/>
+            //                     </div>
+            //                     <div className="partner-col">
+            //                         <img src={pimg3} alt=""/>
+            //                     </div>
+            //                     <div className="partner-col">
+            //                         <img src={pimg4} alt=""/>
+            //                     </div>
+            //                 </Slider>
+            //             </div>
+            //         </div>
+            //     </div>
+            // </div>
+            <div className="kalender">
+              <h1 className='kalendertext' id='kalenderSection'>Boka tid</h1>
+              <Calendar />
             </div>
+            
             );
         }
     }
