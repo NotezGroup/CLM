@@ -5,12 +5,21 @@ import React, { Suspense, useRef } from 'react'
 import './style.css'
 
 import Skeleton from '../Skeleton-test'
+import useScrollPosition from "./useScrollPosition";
+
 
 import { Environment } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 
 const Hero8 = ( props ) => {
-     const scroll = useRef(0)
+
+       
+    const scrollPosition = useScrollPosition();
+    
+    const scroll = useRef(scrollPosition)
+
+    scroll.current = scrollPosition/200;
+    
     return(<>
         <section className="wpo-hero-style-7">
             <div className="wpo-slide-wrap">
@@ -39,6 +48,8 @@ const Hero8 = ( props ) => {
                             <Environment preset="sunset" />
                             </Suspense>
                     </Canvas>
+                  
+                    
                 </div>
                 
             </div>
