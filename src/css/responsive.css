@@ -142,7 +142,7 @@
 .hero-area {
     height: 600px;
 }
-.slide-img{
+.slide-img {
     display: none;
 }
 .hero-style-2 .slide-caption {
@@ -255,7 +255,7 @@
 .hero-area {
     height: 600px;
 }
-.slide-img{
+.slide-img {
     display: none;
 }
 .hero-style-2 .slide-caption {
@@ -290,7 +290,7 @@
 .hero-area {
     height: 450px;
 }
-.slide-img{
+.slide-img {
     display: none;
 }
 .hero-style-2 .slide-caption {
@@ -457,10 +457,10 @@
 /* Large Mobile :480px. */
 @media only screen and (min-width: 325px) and (max-width: 590px) {
     .latest-section .post {
-    margin-bottom: 44px;
-}
-.latest-section .img-holder {
-    padding-right: 9px;
-}
+        margin-bottom: 44px;
+    }
+    .latest-section .img-holder {
+        padding-right: 9px;
+    }
 
 }

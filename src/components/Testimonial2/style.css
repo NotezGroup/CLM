@@ -1,4 +1,6 @@
-
+.wpo-testimonial-item {
+    z-index: 6;
+}
 
 .wpo-testimonial-area {
     background: url('../../images/testimonials/bg.jpg') center center/cover no-repeat local;
@@ -68,18 +70,7 @@
     z-index: 6;
 }
 
-.wpo-testimonial-main:before {
-    position: absolute;
-    right: -385px;
-    content: "";
-    width: 50%;
-    height: 100%;
-    background: rgba(24, 23, 89, .61);
-    border-top: 2px solid #252568;
-    border-bottom: 2px solid #252568;
-    top: 0;
 
-}
 
 .wpo-testimonial-main:after {
     position: absolute;
@@ -209,13 +200,7 @@
     text-align: center;
 }
 
-.wpo-testimonial-area-2 .wpo-testimonial-main:before {
-    background: rgba(29, 28, 54, .61);
-    border-top: 2px solid #2e2d71;
-    border-bottom: 2px solid #2e2d71;
-    text-align: center;
-    width: 34%;
-}
+
 
 .wpo-testimonial-area-2 .wpo-testimonial-wrap {
     position: relative;
