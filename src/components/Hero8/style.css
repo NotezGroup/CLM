@@ -204,6 +204,8 @@ for navbar and other
     opacity: 40%;
 }
 
+
+
 @media(max-width: 1750px) {
     .wpo-hero-style-10:after {
         position: absolute;

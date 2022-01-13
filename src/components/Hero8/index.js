@@ -39,7 +39,7 @@ const Hero8 = ( props ) => {
                 
                 <div className="slide-img">
                     {/* <img src={slimg} alt=""/>*/}
-                    <Canvas
+                    <Canvas className="slide-imgg"
                             shadows
                             raycaster={{ computeOffsets: ({ clientX, clientY }) => ({ offsetX: clientX, offsetY: clientY }) }}>
                             <ambientLight intensity={1} />

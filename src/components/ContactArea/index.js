@@ -10,63 +10,57 @@ const ContactArea = (props) => {
     return(
         <section className={`wpo-contact-area section-padding ${props.contactclass}`}>
             <div className="wpo-wpo-contact-form-map">
-                <div className="container">
+                <div className="containerr">
                     <div className="col-12">
                         <div className="section-title text-center">
-                            <h2>Kontakt</h2>
+                            <h2 className="kontaktText">Kontakt</h2>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="co-lg-10 offset-lg-1  col-12">
-                            <div className="row">
-                                <div className="col col-lg-6 col-md-12 col-12">
-                                    <div className="wpo-contact-form">
-                                        <h2>
-                                            Kom i kontakt
-                                        </h2>
-                                        <ContactForm/>
+                   
+                        
+                                    
+                                        
+                        {/* <ContactForm/> */}
+                    
+                        
+                       
+                            <div className="info-item">
+                                <h2>Emporia Hyllie, Malmö</h2>
+                                <div className="info-wrap">
+                                    <div className="info-icon">
+                                        <img src={contact1} alt=""/>
                                     </div>
-                                </div>
-                                <div className="col col-lg-6 col-md-12 col-12">
-                                    <div className="wpo-contact-info">
-                                        <div className="info-item">
-                                            <h2>Emporia Hyllie, Malmö</h2>
-                                            <div className="info-wrap">
-                                                <div className="info-icon">
-                                                    <img src={contact1} alt=""/>
-                                                </div>
-                                                <div className="info-text">
-                                                    <span>Plats</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="info-item">
-                                            <h2>info@clm.se</h2>
-                                            <div className="info-wrap">
-                                                <div className="info-icon">
-                                                    <img src={contact2} alt=""/>
-                                                </div>
-                                                <div className="info-text">
-                                                    <span>Email</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="info-item">
-                                            <h2>+46700 00 00 00</h2>
-                                            <div className="info-wrap">
-                                                <div className="info-icon">
-                                                    <img src={contact3} alt=""/>
-                                                </div>
-                                                <div className="info-text">
-                                                    <span>Telefon</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div className="info-text">
+                                        <span>Plats</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                            <div className="info-item">
+                                <h2>info@clm.se</h2>
+                                <div className="info-wrap">
+                                    <div className="info-icon">
+                                        <img src={contact2} alt=""/>
+                                    </div>
+                                    <div className="info-text">
+                                        <span>Email</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="info-item">
+                                <h2>+46700 00 00 00</h2>
+                                <div className="info-wrap">
+                                    <div className="info-icon">
+                                        <img src={contact3} alt=""/>
+                                    </div>
+                                    <div className="info-text">
+                                        <span>Telefon</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                               
+                            
+                    
                 </div> 
             </div>
         </section>
