@@ -194,6 +194,16 @@ for navbar and other
     background: #fff;
 }
 
+.slide-img {
+    position: absolute;
+    z-index: -1;
+    left: 180px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 40%;
+}
+
 @media(max-width: 1750px) {
     .wpo-hero-style-10:after {
         position: absolute;
@@ -223,16 +233,7 @@ for navbar and other
     height: 800px;
 }
 
-.slide-img {
-    position: absolute;
-    z-index: -1;
-    left: 180px;
-    top: 0px;
-    bottom: 300px;
-    height: 100%;
-    width: 100%;
-    opacity: 40%;
-}
+
 
 .wpo-hero-style-7 .skelett {
     bottom: 0px;
@@ -248,23 +249,23 @@ for navbar and other
 }
 
 @media(max-width: 1700px) {
-    .slide-img {
+    /* .slide-img {
         right: 60px;
     }
 
     .wpo-hero-style-7 .slide-img {
         right: 60px;
-    }
+    } */
 }
 
 @media(max-width: 1500px) {
-    .slide-img {
+    /* .slide-img {
         right: 10px;
     }
 
     .wpo-hero-style-7 .slide-img {
         right: 10px;
-    }
+    } */
 }
 
 
@@ -420,38 +421,33 @@ for navbar and other
         font-size: 60px;
     }
 
-    .wpo-hero-style-9 .slide-img {
+    /* .wpo-hero-style-9 .slide-img {
         display: none;
-    }
+    } */
 
     .wpo-hero-style-1 {
         height: 750px;
     }
 }
 
-@media(max-width: 767px) {
-    .wpo-hero-style-2 .slide-caption h2 {
-        font-size: 35px;
-        line-height: 1px;
-    }
-
-    .wpo-hero-style-3{
-        height: 500px;
-    }
-    
-
-}
 
 @media(max-width: 992px) {
+    /* .slide-img {
+        display: none;
+        
+    } */
     .slide-img {
-        display: none;
-
+        position: absolute;
+        z-index: -1;
+        left: 180px;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        opacity: 40%;
     }
-
-    .wpo-hero-style-9 .slide-img {
-        display: none;
-    }
-
+    
+    
+    
     .wpo-hero-style-2,
     .wpo-hero-style-5,
     .wpo-hero-style-8,
@@ -459,18 +455,52 @@ for navbar and other
     .wpo-hero-style-6 {
         height: 540px;
     }
-
+    
     .wpo-hero-style-9 {
         height: 600px!important;
         background: #5b62ee!important;
     }
-
+    
     .wpo-hero-style-2 .slide-caption {
         margin-top: 0;
     }
 }
 
+
+@media(max-width: 767px) {
+    .slide-img {
+        position: absolute;
+        z-index: -1;
+        left: 180px;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        opacity: 40%;
+    }
+
+
+    /* .wpo-hero-style-2 .slide-caption h2 {
+        font-size: 35px;
+        line-height: 1px;
+    }
+
+    .wpo-hero-style-3{
+        height: 500px;
+    } */
+    
+
+}
+
 @media(max-width: 590px) {
+    .slide-img {
+        position: absolute;
+        z-index: -1;
+        left: 180px;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        opacity: 40%;
+    }
     .wpo-exprience-area {
         display: none;
     }
@@ -497,10 +527,6 @@ for navbar and other
     .wpo-hero-style-9 {
         height: 500px!important;
     }
-}
-
-
-@media (max-width: 590px) {
 
     .wpo-hero-style-3 .slide-caption h2,
     .wpo-hero-style-4 .slide-caption h2,
@@ -530,7 +556,56 @@ for navbar and other
     }
 }
 
+
+/* @media (max-width: 590px) {
+    .slide-img {
+        position: absolute;
+        z-index: -1;
+        left: 180px;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        opacity: 40%;
+    }
+
+    .wpo-hero-style-3 .slide-caption h2,
+    .wpo-hero-style-4 .slide-caption h2,
+    .wpo-hero-style-5 .slide-caption h2,
+    .wpo-hero-style-6 .slide-caption h2,
+    .wpo-hero-style-7 .slide-caption h2,
+    .wpo-hero-style-8 .slide-caption h2,
+    .wpo-hero-style-9 .slide-caption h2,
+    .wpo-hero-style-10 .slide-caption h2,
+    .wpo-hero-style-1 .slide-caption h2,
+    .wpo-hero-style-2 .slide-caption h2 {
+        font-size: 30px!important;
+    }
+
+    .bg-animate-shape {
+        height: 600px;
+    }
+
+    .wpo-hero-style-1.bg-animate-shape .slide-caption h2 {
+        font-size: 55px;
+        margin-bottom: 25px;
+        line-height: 48px;
+    }
+
+    .wpo-hero-style-1 .slide-caption .theme-btn {
+        margin-right: 14px!important;
+    }
+} */
+
 @media (max-width: 450px) {
+    .slide-img {
+        position: absolute;
+        z-index: -1;
+        left: 180px;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        opacity: 40%;
+    }
 
     .wpo-hero-style-3 .slide-caption h2 span,
     .wpo-hero-style-4 .slide-caption h2 span,

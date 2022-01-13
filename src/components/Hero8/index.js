@@ -1,6 +1,6 @@
 import React, { Suspense, useRef } from 'react'
 // import {Link}  from 'react-router-dom';
-import slimg from '../../images/slider/hero-shape2.png'
+// import slimg from '../../images/slider/hero-shape2.png'
 
 import './style.css'
 
@@ -27,20 +27,20 @@ const Hero8 = ( props ) => {
                         </div>
                     </div>
                 </div>
-                <div className="wpo-slide-right-img">
-                    <div className="slide-img wow fadeInRightSlow" data-wow-duration="2000ms">
-                        {/* <img src={slimg} alt=""/>*/}
-                        <Canvas
-                                shadows
-                                raycaster={{ computeOffsets: ({ clientX, clientY }) => ({ offsetX: clientX, offsetY: clientY }) }}>
-                                <ambientLight intensity={1} />
-                                <Suspense fallback={null}>
-                                <Skeleton scroll={scroll} />
-                                <Environment preset="sunset" />
-                                </Suspense>
-                        </Canvas>
-                    </div>
+                
+                <div className="slide-img">
+                    {/* <img src={slimg} alt=""/>*/}
+                    <Canvas
+                            shadows
+                            raycaster={{ computeOffsets: ({ clientX, clientY }) => ({ offsetX: clientX, offsetY: clientY }) }}>
+                            <ambientLight intensity={1} />
+                            <Suspense fallback={null}>
+                            <Skeleton scroll={scroll} />
+                            <Environment preset="sunset" />
+                            </Suspense>
+                    </Canvas>
                 </div>
+                
             </div>
         </section>
         </>
