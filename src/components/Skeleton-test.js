@@ -22,7 +22,7 @@ export default function Model({ scroll, ...props }) {
 
   useFrame(() => {
    // actions.rigAction.time = THREE.MathUtils.lerp(actions.rigAction.time, actions.rigAction.getClip().duration * scroll.current, 0.05)
-   actions["CameraAction.001"].time = THREE.MathUtils.lerp(actions["CameraAction.001"].time, actions["CameraAction.001"].getClip().duration * scroll.current, 0.05)
+   actions["CameraAction.001"].time = THREE.MathUtils.lerp(actions["CameraAction.001"].time, actions["CameraAction.001"].getClip().duration * scroll.current, 0.03)
   }, [])
 
   
