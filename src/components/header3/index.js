@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link}  from 'react-router-dom'
 import MobileMenu from '../../components/MobileMenu'
-import logo from './clm-logo.png'
+// import logo from './clm-logo.png'
 
 import './style.css'
 import './stylle.scss'

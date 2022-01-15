@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 import {Link} from 'react-router-dom'
-import logo from '../header3/clm-logo.png'
+// import logo from '../header3/clm-logo.png'
 
 
 const Footer = (props) => {
