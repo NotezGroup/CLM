@@ -31,7 +31,9 @@
 }
 
 .footer-logo {
-    width: 110px;
+    margin-top: -40px;
+    margin-bottom: -30px;
+    width: 80%;
 }
 
 .wpo-footer-social {
@@ -107,7 +109,27 @@
     }
 
     .footer-logo {
-        margin-top: 5px;
+        margin-top: -30px;
+        width: 100%;
+    }
+
+    .wpo-footer-social ul li a {
+        top: 4px;
+    }
+}
+@media(max-width: 1000px) {
+    .wpo-footer-social ul li {
+        width: 62px;
+        height: 62px;
+    }
+
+    .wpo-footer-menu {
+        margin-top: 20px;
+    }
+
+    .footer-logo {
+        margin-top: -20px;
+        width: 100%;
     }
 
     .wpo-footer-social ul li a {
@@ -120,11 +142,28 @@
         text-align: center;
         margin-top: 30px;
     }
+    .footer-logo {
+        width: 70%;
+        position: relative;
+        left: 189%;
+        margin-bottom: -5%;
+     }
+
 }
 
 @media(max-width: 767px) {
     .footer-logo {
-        text-align: center;
+        width: 100%;
+        position: relative;
+        left: 185%;
+        margin-bottom: -5%;
+     }
+}
+@media(max-width: 575px) {
+    .footer-logo {
+       width: 20%;
+       position: relative;
+       left: 41%;
     }
 }
 
@@ -166,7 +205,7 @@
 
 
 .wpo-footer-area3 {
-    background: #eeeeee;
+    background: #f7f3ed;
     position: relative;
     z-index: 6;
 }
@@ -176,7 +215,7 @@
 }
 
 .wpo-footer-area3 .wpo-footer-bottom {
-    background: #eeecec;
+    background: #f7f3ed;
 }
 
 .wpo-footer-area3 .wpo-footer-bottom span {

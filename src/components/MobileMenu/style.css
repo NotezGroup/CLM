@@ -40,7 +40,7 @@
     letter-spacing: 0;
     text-transform: capitalize;
     font-weight: 500;
-    color: #fff;
+    color: #efe8dc;
     cursor: pointer;
 }
 .responsivemenu li p{
@@ -82,12 +82,23 @@
         display: block;
     }
     .mobileMenu{
-        display: block;
+        display: none;
+    }
+}
+@media (max-width:767){
+    .mobileMenu {
+        width: 250px;
+    }
+    .showmenu{
+        display: none;
     }
 }
 @media (max-width:450px){
     .mobileMenu {
         width: 250px;
+    }
+    .showmenu{
+        display: none;
     }
 }
 

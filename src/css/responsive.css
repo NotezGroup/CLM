@@ -143,7 +143,7 @@
     height: 600px;
 }
 .slide-img {
-    display: none;
+    display: block;
 }
 .hero-style-2 .slide-caption {
     z-index: 99;
@@ -256,7 +256,7 @@
     height: 600px;
 }
 .slide-img {
-    display: none;
+    display: block;
 }
 .hero-style-2 .slide-caption {
     z-index: 99;
@@ -291,7 +291,7 @@
     height: 450px;
 }
 .slide-img {
-    display: none;
+    display: block;
 }
 .hero-style-2 .slide-caption {
     z-index: 99;

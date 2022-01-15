@@ -28,11 +28,7 @@ const Hero8 = ( props ) => {
                         <div className="col col-lg-7 col-md-12 slide-caption">
                             <h2 className="wow fadeInLeftSlow" data-wow-delay="0.5s">Jag kommer att ta hand om din hälsa</h2>
                             <span className="wow fadeInUp" data-wow-delay="0.8s">Mycket av det dagliga arbetet tar vi förgivet. Lita på våran behandling.</span>
-                            <div className="wow fadeInUp" data-wow-delay="1.0s">
-                                <div className="hero-btn">
-                                    {/* <Link to="/about" className="theme-btn">More About</Link> */}
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

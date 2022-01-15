@@ -424,13 +424,12 @@ for navbar and other
 @media(max-width: 992px) {
     
     .slide-img {
-        position: fixed;
-        left: 0px;
-        top: 0px;
-        height: 100%;
+        position: absolute;
         width: 100%;
-        opacity: 100%;
-        z-index: 1;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+        z-index: 7;
         opacity: 100%;
     }
     
@@ -450,12 +449,12 @@ for navbar and other
 
 @media(max-width: 767px) {
     .slide-img {
-        position: fixed;
-        left: 0px;
-        top: 0px;
-        height: 100%;
+        position: absolute;
         width: 100%;
-        z-index: 1000;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+        z-index: 7;
         opacity: 100%;
     }
 
@@ -481,12 +480,12 @@ for navbar and other
 
 @media(max-width: 590px) {
     .slide-img {
-        position: fixed;
-        left: 0px;
-        top: 0px;
-        height: 100%;
+        position: absolute;
         width: 100%;
-        z-index: 1;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+        z-index: 7;
         opacity: 100%;
     }
     .wpo-exprience-area {
@@ -548,15 +547,18 @@ for navbar and other
 
 
 @media (max-width: 450px) {
-    .slide-imgg {
-        position: fixed;
-        left: 0px;
-        top: 0px;
-        height: 100%;
+    
+   
+    .slide-img {
+        position: absolute;
         width: 100%;
-        z-index: 1;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+        z-index: 7;
         opacity: 100%;
     }
+    
     
 
     .wpo-hero-style-3 .slide-caption h2 span,

@@ -12,7 +12,7 @@ const Header = (props) => {
         <div className="container">
             <div className="header-content">
                 <div className="logo">
-                    <Link to="/" title=""><img src={logo} alt=""/></Link>
+                    <Link to="/" title=""><img className="imglogo" src="https://imagizer.imageshack.com/img923/7639/Ddr18f.png" alt=""/></Link>
                     {/* <h1>LOGO</h1> */}
                 </div>
                 <nav className="d-lg-block d-none header-b">
@@ -69,10 +69,12 @@ const Header = (props) => {
                         
                            
                             <button className="learn-more">
-                                <span className="circle" aria-hidden="true">
-                                <span className="icon arrow"></span>
+                                <span className="nybtn circle" aria-hidden="true">
+                                    <span className="icon arrow"></span>
                                 </span>
-                                <span className="button-text"><a className='a-linked' href="#kalenderSection">Boka tid</a></span>
+                                <span className="button-text">
+                                    <a className='a-linked' href="#kalenderSection">Boka tid</a>
+                                </span>
                             </button>
                             
                         

@@ -404,7 +404,7 @@ nav ul ul li{
 
 @media(max-width:767px){
     .cart-search-contact{
-        display: none;
+        display: block;
     }
 }
 
