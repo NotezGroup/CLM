@@ -10,7 +10,7 @@
     margin: auto;
     overflow: auto;
     position: relative;
-    z-index: 8;
+    z-index: 10;
   }
   .react-calendar--doubleView {
     width: 700px;

@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import './style.css'
 
-import Calendar from '../Calendar/CalendarComp'
+import Calendar from '../Calendar/CalendarComp/CalendarComp'
 
 class PartnerSlider extends Component {
     render() {

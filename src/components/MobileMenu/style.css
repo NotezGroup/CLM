@@ -11,6 +11,9 @@
     overflow-x: auto;
     overflow-y: scroll;
 }
+.fa-bars:before{
+    display: none !important;
+}
 .responsivemenu .card-body{
     background:#070640;
 }

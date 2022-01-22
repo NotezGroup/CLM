@@ -11,14 +11,28 @@ function CalendarComp() {
 
     const openForm = () => {
       setFormState("open");
+
+    
+      const body = document.body;
+      body.style.overflow = 'hidden';
+     
     }
+
+
+    const cancelFormFunc = () => {
+      setFormState(null);
+
+      const body = document.body;
+      body.style.overflow = 'scroll';
+    }
+
 
   
     return (
       <div>
         <Calendar onChange={onChange} onClickDay={openForm} value={value}/>
 
-        {formState && <Exampleform dayValue={value}/>}
+        {formState && <Exampleform dayValue={value.toLocaleDateString()} cancelForm={cancelFormFunc}/>}
 
       </div>
     );
