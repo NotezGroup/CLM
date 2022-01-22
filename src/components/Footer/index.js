@@ -40,7 +40,7 @@ const Footer = (props) => {
             </div>
             <div className={`wpo-footer-bottom ${props.Fbclass}`}>
                 <span>© 2021 CLM Scandinavia  AB. All rights reserved</span>
-                <span>Website created by: <a href="http://notez.se/">Notez</a></span>
+                <span>Website created by: <a href="http://notez.se/">www.notez.se</a></span>
 
             </div>
         </div>
