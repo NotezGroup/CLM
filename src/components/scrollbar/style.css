@@ -2,6 +2,11 @@
 smothscroll
  ======================================================*/
 
+ .scrollIndex {
+     position: fixed;
+     z-index: 50;
+ }
+
 ul.smothscroll {
     position: fixed;
     bottom: 25px;
