@@ -21,8 +21,13 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap; 
-    margin-left: 20px;
+    margin-left: 30px;
     color: #121127;
+}
+.infoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -140,7 +145,7 @@
 
 .wpo-wpo-contact-form-map .info-wrap {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .wpo-wpo-contact-form-map .info-icon {
@@ -170,10 +175,22 @@
     flex: 1 1 160px;
     position: relative;
     z-index: 6;
+    padding-left: auto;
+    text-align: center;
 }
 
+.kontaktrubrik {
+    
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+
 .info-item h2 {
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
     font-weight: 600;
     margin-top: 0;
@@ -193,8 +210,12 @@
 
 .info-text span {
     color: #8c8b8b;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
+}
+
+.info-text {
+    padding-top: 30px;
 }
 
 @media(max-width: 991px) {

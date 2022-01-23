@@ -8,16 +8,20 @@ import './style.css'
 
 class TestSlider2 extends Component {
     render( props ) {
+        
         var settings = {
-            dots: false,
+            dots: true,
             infinite: true,
-            speed: 500,
+            speed: 1000,
             arrows: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: false,
             margin: 10,
             loop: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            pauseOnHover: true,
+            
         };
         return (
             <div className={`wpo-testimonial-area wpo-testimonial-area-2 section-padding ${this.props.testclass}`}>

@@ -23,9 +23,9 @@ const ContactArea = (props) => {
                         {/* <ContactForm/> */}
                     
                         
-                       
+                       <div className='infoContainer'>
                             <div className="info-item">
-                                <h2>Emporia Hyllie, Malmö</h2>
+                                <h2 className='kontaktrubrik plats'>Emporia Hyllie, Malmö</h2>
                                 <div className="info-wrap">
                                     <div className="info-icon">
                                         <img src={contact1} alt=""/>
@@ -36,7 +36,7 @@ const ContactArea = (props) => {
                                 </div>
                             </div>
                             <div className="info-item">
-                                <h2>info@clm.se</h2>
+                                <h2 className='kontaktrubrik'>info@clm.se</h2>
                                 <div className="info-wrap">
                                     <div className="info-icon">
                                         <img src={contact2} alt=""/>
@@ -47,7 +47,7 @@ const ContactArea = (props) => {
                                 </div>
                             </div>
                             <div className="info-item">
-                                <h2>+46700 00 00 00</h2>
+                                <h2 className='kontaktrubrik'>+46700 00 00 00</h2>
                                 <div className="info-wrap">
                                     <div className="info-icon">
                                         <img src={contact3} alt=""/>
@@ -57,7 +57,7 @@ const ContactArea = (props) => {
                                     </div>
                                 </div>
                             </div>
-                        
+                        </div>
                                
                             
                     
