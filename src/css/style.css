@@ -424,7 +424,7 @@ img{
 
 .fixed-navbar {
     position: relative;
-    z-index: 5555;
+    z-index: 55;
   }
   .fixed-navbar.active .header-style-1,
   .fixed-navbar.active .header-style-2,

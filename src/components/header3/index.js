@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link}  from 'react-router-dom'
-import MobileMenu from '../../components/MobileMenu'
+// import MobileMenu from '../../components/MobileMenu'
 // import logo from './clm-logo.png'
 
 import './style.css'
@@ -83,7 +83,7 @@ const Header = (props) => {
                 <div className="clearfix"></div>
                 
             </div>
-            <MobileMenu/>
+            {/* <MobileMenu/> */}
         </div>
     </div>
     )
