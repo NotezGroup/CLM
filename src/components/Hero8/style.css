@@ -443,6 +443,9 @@ for navbar and other
         height: 540px;
     }
     
+    .row {
+        width: 80%;
+    }
     
 }
 
@@ -474,7 +477,9 @@ for navbar and other
     .wpo-hero-style-3{
         height: 500px;
     } */
-    
+    .row {
+        width: 80%;
+    }
 
 }
 
@@ -541,6 +546,10 @@ for navbar and other
     .wpo-hero-style-1 .slide-caption .theme-btn {
         margin-right: 14px!important;
     }
+
+    .row {
+        width: 80%;
+    }
 }
 
 
@@ -571,5 +580,9 @@ for navbar and other
     .wpo-hero-style-10 .slide-caption h2 span,
     .wpo-hero-style-1 .slide-caption h2 span {
         padding: 4px 0;
+    }
+
+    .row {
+        width: 80%;
     }
 }
