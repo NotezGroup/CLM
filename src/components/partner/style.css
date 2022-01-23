@@ -55,7 +55,7 @@
 
 .kalender {
 	background-color: #f7f3ed;
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 100px;
 }
 
@@ -65,7 +65,7 @@
     color: #121127;
 	text-align: center;
 	padding-bottom: 10px;
-	margin-bottom: 70px;
+	margin-bottom: 30px;
 	position: relative;
 	z-index: 6;
 }

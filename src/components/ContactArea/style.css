@@ -1,10 +1,12 @@
 .wpo-contact-area .section-title h2 {
     position: relative;
     z-index: 6;
+    margin-left: -30px;
 }
 .wpo-contact-area {
     background: #070640;
-    padding-bottom: 40px!important;
+    padding-bottom: 70px;
+    padding-top: 70px;
 }
 
 .wpo-wpo-contact-form-map .wpo-contact-form {
@@ -186,6 +188,9 @@
     overflow: hidden;
     white-space: nowrap;
     
+}
+h2.kontaktText {
+    margin-bottom: -10px;
 }
 
 
@@ -375,7 +380,6 @@
 
 .wpo-contact-area4 {
     background: white;
-    padding-bottom: 70px!important;
 }
 
 .wpo-contact-area4 .section-title h2{

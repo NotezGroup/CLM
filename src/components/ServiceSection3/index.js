@@ -9,7 +9,7 @@ const ServiceSection3 = (props) => {
             <div className="container">
                 <div className="col-12">
                     <div className="section-title-2 text-center">
-                        <h2>Det här är vad jag gör.</h2>
+                        <h2 className='rubrik'>Det här är vad jag gör.</h2>
                     </div>
                 </div>
                 <div className="row">
@@ -21,7 +21,7 @@ const ServiceSection3 = (props) => {
                             <div className="work-content">
                                 <h2>Sports Injury</h2>
                                 <p>Jag gör mitt bästa för att få dig att komma ut härifrån nöjd, hoppas på en super nöjda kunder</p>
-                                <Link to="/service-details">Läs mer</Link>
+                                {/* <Link to="/service-details">Läs mer</Link> */}
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ const ServiceSection3 = (props) => {
                             <div className="work-content">
                                 <h2>Andning</h2>
                                 <p>Jag gör mitt bästa för att få dig att komma ut härifrån nöjd, hoppas på en super nöjda kunder</p>
-                                <Link to="/service-details">Läs mer</Link>
+                                {/* <Link to="/service-details">Läs mer</Link> */}
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ const ServiceSection3 = (props) => {
                             <div className="work-content">
                                 <h2>Ben</h2>
                                 <p>Jag gör mitt bästa för att få dig att komma ut härifrån nöjd, hoppas på en super nöjda kunder</p>
-                                <Link to="/service-details">Läs mer</Link>
+                                {/* <Link to="/service-details">Läs mer</Link> */}
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const ServiceSection3 = (props) => {
                             <div className="work-content">
                                 <h2>Hälsan</h2>
                                 <p>Jag gör mitt bästa för att få dig att komma ut härifrån nöjd, hoppas på en super nöjda kunder</p>
-                                <Link to="/service-details">Läs mer</Link>
+                                {/* <Link to="/service-details">Läs mer</Link> */}
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ const ServiceSection3 = (props) => {
                             <div className="work-content">
                                 <h2>Jobb</h2>
                                 <p>Jag gör mitt bästa för att få dig att komma ut härifrån nöjd, hoppas på en super nöjda kunder</p>
-                                <Link to="/service-details">Läs mer</Link>
+                                {/* <Link to="/service-details">Läs mer</Link> */}
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ const ServiceSection3 = (props) => {
                             <div className="work-content">
                                 <h2>Medicinsk</h2>
                                 <p>Jag gör mitt bästa för att få dig att komma ut härifrån nöjd, hoppas på en super nöjda kunder</p>
-                                <Link to="/service-details">Läs mer</Link>
+                                {/* <Link to="/service-details">Läs mer</Link> */}
                             </div>
                         </div>
                     </div>

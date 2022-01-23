@@ -64,3 +64,7 @@
 label.form-label {
   margin-top: 0.5rem;
 }
+
+textarea.form-control {
+  min-height: calc(23.5em + 0.75rem + 2px);
+}
