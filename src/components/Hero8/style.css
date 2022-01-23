@@ -16,7 +16,7 @@
 .wpo-hero-style-10 .slide-caption span,
 .wpo-hero-style-7 .slide-caption span,
 .wpo-hero-style-4 .slide-caption span {
-    font-size: 12px;
+    font-size: 22px;
     display: block;
     margin-bottom: 40px;
     color: #333;
@@ -481,6 +481,10 @@ for navbar and other
         width: 80%;
     }
 
+    .wpo-hero-style-7 .slide-caption h2 span {
+        font-size: 20px;
+    }
+
 }
 
 @media(max-width: 590px) {
@@ -513,7 +517,7 @@ for navbar and other
     .wpo-hero-style-3 .slide-caption h2, .wpo-hero-style-10 .slide-caption h2, 
     .wpo-hero-style-4 .slide-caption h2, .wpo-hero-style-7 .slide-caption h2, 
     .wpo-hero-style-6 .slide-caption h2 {
-        line-height: 40px!important;
+        line-height: 35px;
     }
 
     .wpo-hero-style-9 {
@@ -531,6 +535,10 @@ for navbar and other
     .wpo-hero-style-1 .slide-caption h2,
     .wpo-hero-style-2 .slide-caption h2 {
         font-size: 25px;
+    }
+
+    .wpo-hero-style-7 .slide-caption span {
+        font-size: 13px;
     }
 
     .bg-animate-shape {
@@ -574,13 +582,13 @@ for navbar and other
     .wpo-hero-style-4 .slide-caption h2 span,
     .wpo-hero-style-5 .slide-caption h2 span,
     .wpo-hero-style-6 .slide-caption h2 span,
-    .wpo-hero-style-7 .slide-caption h2 span,
+    .wpo-hero-style-7 .slide-caption span,
     .wpo-hero-style-8 .slide-caption h2 span,
     .wpo-hero-style-9 .slide-caption h2 span,
     .wpo-hero-style-10 .slide-caption h2 span,
     .wpo-hero-style-1 .slide-caption h2 span {
         padding: 4px 0;
-        font-size: 25px;
+        font-size: 12px;
     }
 
     .row.headertext {
@@ -598,6 +606,7 @@ for navbar and other
     .wpo-hero-style-1 .slide-caption h2,
     .wpo-hero-style-2 .slide-caption h2 {
         font-size: 20px;
+        line-height: 30px;
     }
 
    
