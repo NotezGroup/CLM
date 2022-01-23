@@ -24,7 +24,7 @@ const Hero8 = ( props ) => {
         <section className="wpo-hero-style-7">
             <div className="wpo-slide-wrap">
                 <div className="container">
-                    <div className="row">
+                    <div className="row headertext">
                         <div className="texten col-lg-7 col-md-12 slide-caption">
                             <h2 className="wow fadeInLeftSlow" data-wow-delay="0.5s">Jag kommer att ta hand om din hälsa</h2>
                             <span className="wow fadeInUp" data-wow-delay="0.8s">Mycket av det dagliga arbetet tar vi förgivet. Lita på våran behandling.</span>
