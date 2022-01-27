@@ -12,7 +12,7 @@ const Footer = (props) => {
                     <div className="row">
                         <div className="col-lg-2 col-md-3 col-sm-3 col-12">
                             <div className="footer-logo">
-                             <img src={require('./clm-logo-big.png')}/>
+                             <img src={require('./clm-logo-big.png')} alt=''/>
                                  {/* <h1 className='logotyp'>LOGO</h1> */}
                             </div>
                         </div>
