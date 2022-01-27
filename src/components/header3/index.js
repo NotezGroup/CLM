@@ -12,7 +12,9 @@ const Header = (props) => {
         <div className="container">
             <div className="header-content">
                 <div className="logo">
-                    <Link to="/" title=""><img className="imglogo" src="https://imagizer.imageshack.com/img923/7639/Ddr18f.png" alt=""/></Link>
+                    <Link to="/" title="">
+                        <img src={require('./clm-logo.jpg')}/>
+                    </Link>
                     {/* <h1>LOGO</h1> */}
                 </div>
                 <nav className="d-lg-block d-none header-b">
@@ -73,7 +75,7 @@ const Header = (props) => {
                                     <span className="icon arrow"></span>
                                 </span>
                                 <span className="button-text">
-                                    <a className='a-linked' href="#kalenderSection">Boka tid</a>
+                                    <a className='a-linked' href="#kalenderSection">Booking</a>
                                 </span>
                             </button>
                             

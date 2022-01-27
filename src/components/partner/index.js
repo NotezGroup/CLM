@@ -92,7 +92,12 @@ class PartnerSlider extends Component {
             //     </div>
             // </div>
             <div className="kalender"  id="kalenderSection">
-              <h1 className="kalendertext" >Boka tid</h1>
+              <h1 className="kalendertext" >Booking</h1>
+              <div className='groupBooking'>
+                    <p>Group Booking or Private Treatment</p>
+                    <p>If you are a group of 5 or more I can do private treatments for you all. Contact me for more info.</p>
+              </div>
+              
               <Calendar />
             </div>
             

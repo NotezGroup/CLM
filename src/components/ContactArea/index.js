@@ -13,7 +13,7 @@ const ContactArea = (props) => {
                 <div className="containerr">
                     <div className="col-12">
                         <div className="section-title text-center">
-                            <h2 className="kontaktText">Kontakt</h2>
+                            <h2 className="kontaktText">Contact</h2>
                         </div>
                     </div>
                    
@@ -25,18 +25,18 @@ const ContactArea = (props) => {
                         
                        <div className='infoContainer'>
                             <div className="info-item">
-                                <h2 className='kontaktrubrik plats'>Emporia Hyllie, Malmö</h2>
+                                <h2 className='kontaktrubrik plats'>Allétorget 14, Hyllie, Malmö</h2>
                                 <div className="info-wrap">
                                     <div className="info-icon">
                                         <img src={contact1} alt=""/>
                                     </div>
                                     <div className="info-text">
-                                        <span>Plats</span>
+                                        <span>Place</span>
                                     </div>
                                 </div>
                             </div>
                             <div className="info-item">
-                                <h2 className='kontaktrubrik'>info@clm.se</h2>
+                                <h2 className='kontaktrubrik'>booking@clmscandinavia.se</h2>
                                 <div className="info-wrap">
                                     <div className="info-icon">
                                         <img src={contact2} alt=""/>
@@ -47,13 +47,13 @@ const ContactArea = (props) => {
                                 </div>
                             </div>
                             <div className="info-item">
-                                <h2 className='kontaktrubrik'>+46700 00 00 00</h2>
+                                <h2 className='kontaktrubrik'>+4676 23 30 381</h2>
                                 <div className="info-wrap">
                                     <div className="info-icon">
                                         <img src={contact3} alt=""/>
                                     </div>
                                     <div className="info-text">
-                                        <span>Telefon</span>
+                                        <span>Phone</span>
                                     </div>
                                 </div>
                             </div>

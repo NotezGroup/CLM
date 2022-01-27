@@ -13,7 +13,7 @@ const Emergencey = () => {
                                     <i className="fi flaticon-heart"></i>
                                 </div>
                                 <div className="emergencey-text">
-                                    <h2>Akut Service</h2>
+                                    <h2>Emergencey Service</h2>
                                     <p>Ett akut ärende, t.ex. vid sports olycka eller vad som, ring akutmottagningen, vid kiropraktiska ärenden </p>
                                     <span>Ring : +46700 00 00 00</span>
                                 </div>

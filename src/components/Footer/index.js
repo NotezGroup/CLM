@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 // import logo from '../header3/clm-logo.png'
 
 
@@ -12,7 +12,7 @@ const Footer = (props) => {
                     <div className="row">
                         <div className="col-lg-2 col-md-3 col-sm-3 col-12">
                             <div className="footer-logo">
-                                 <img src="https://imagizer.imageshack.com/img923/5889/qUZgWZ.png" alt=""/>
+                             <img src={require('./clm-logo-big.png')}/>
                                  {/* <h1 className='logotyp'>LOGO</h1> */}
                             </div>
                         </div>
@@ -30,8 +30,8 @@ const Footer = (props) => {
                             <div className="wpo-footer-social">
                                 <ul>
                                     <li><a href="https://www.facebook.com/CLMScandinavia"><i className="fa fa-facebook"></i></a></li>
-                                    <li><Link to="/"><i className="fa fa-twitter" aria-hidden="true"></i></Link></li>
-                                    <li><Link to="/"><i className="fa fa-instagram" aria-hidden="true"></i></Link></li>
+                                    {/* <li><Link to="/"><i className="fa fa-twitter" aria-hidden="true"></i></Link></li> */}
+                                    <li><a href="https://www.instagram.com/clmscandinavia/"><i className="fa fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
