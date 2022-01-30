@@ -28,7 +28,7 @@ class TestSlider2 extends Component {
                 <div className="container">
                     <div className="col-12">
                         <div className="section-title">
-                            <h2>Recensioner</h2>
+                            <h2>Reviews</h2>
                         </div>
                     </div>
                     <div className="wpo-testimonial-main">
@@ -36,11 +36,12 @@ class TestSlider2 extends Component {
                             <div className="wpo-testimonial-wrap">
                                 <div className="wpo-testimonial-item">
                                     <div className="wpo-testimonial-content">
-                                        <p>Jag har varit under en behandling här hos Stivo och här har jag känt mig väldigt välkommen och skulle vilja komma hit igen, han är duktig </p>
+                                        <p>Wow completely scary feeling the pain in the foot is gone the pain in the elbow almost completely gone tender in the neck but much clearer 
+                                            in the knob than in a very long time! i was very skeptical and nervous before! Thank you Stiven for the help! </p>
                                         <div className="wpo-testimonial-item2">
                                             <div className="wpo-testimonial-thumb">
-                                                <h4>Ali Hammoude</h4>
-                                                <span>Webbutvecklare på hög nivå</span>
+                                                <h4>Katarina Larsson</h4>
+                                                <span>I recommed CLM Scandinavia - Stiven</span>
                                             </div>
                                         </div>
                                     </div>
@@ -49,11 +50,15 @@ class TestSlider2 extends Component {
                             <div className="wpo-testimonial-wrap">
                                 <div className="wpo-testimonial-item">
                                     <div className="wpo-testimonial-content">
-                                        <p>Jag har varit under en behandling här hos Stivo och här har jag känt mig väldigt välkommen och skulle vilja komma hit igen, han är duktig </p>
+                                        <p>Absolutely!
+                                            He uses a technology that is much kinder and gentler than it can look on video.
+                                            I feel like a new person and can hold my back again. It is difficult to describe 
+                                            the feeling but it feels as if I have regained contact with the body again. Painless 
+                                            and mobile again. Thanks Stiven! </p>
                                         <div className="wpo-testimonial-item2">
                                             <div className="wpo-testimonial-thumb">
-                                                <h4>Taleb Hammoude</h4>
-                                                <span>Alis chef</span>
+                                                <h4>Viveca Larsson</h4>
+                                                <span>I recommed CLM Scandinavia - Stiven</span>
                                             </div>
                                         </div>
                                     </div>
@@ -62,11 +67,12 @@ class TestSlider2 extends Component {
                             <div className="wpo-testimonial-wrap">
                                 <div className="wpo-testimonial-item">
                                     <div className="wpo-testimonial-content">
-                                        <p>Jag har varit under en behandling här hos Stivo och här har jag känt mig väldigt välkommen och skulle vilja komma hit igen, han är duktig </p>
+                                        <p>Chris Leong was the guy who tought Master Steven what he does to 
+                                            correct my body. I can now move my shoulder. Really love how he can help this guy! So Thx master </p>
                                         <div className="wpo-testimonial-item2">
                                             <div className="wpo-testimonial-thumb">
-                                                <h4>Stivo Kuchak</h4>
-                                                <span>CEO of CLM</span>
+                                                <h4>Mathiaz Rickman</h4>
+                                                <span>I recommed CLM Scandinavia - Stiven</span>
                                             </div>
                                         </div>
                                     </div>

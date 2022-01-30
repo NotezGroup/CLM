@@ -13,13 +13,13 @@ const Emergencey = () => {
                                     <i className="fi flaticon-heart"></i>
                                 </div>
                                 <div className="emergencey-text">
-                                    <h2>Emergencey Service</h2>
-                                    <p>Ett akut ärende, t.ex. vid sports olycka eller vad som, ring akutmottagningen, vid kiropraktiska ärenden </p>
-                                    <span>Ring : +46700 00 00 00</span>
+                                    <h2>Emergency Service</h2>
+                                    <p>please contact us for more information to get a booking faster than what is available </p>
+                                    <span>Call : +4676 23 30 381</span>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-6">
+                        {/* <div className="col-lg-6 col-md-6">
                             <div className="emergencey-hour">
                                 <div className="emergencey-icon">
                                     <i className="fi flaticon-time"></i>
@@ -32,7 +32,7 @@ const Emergencey = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

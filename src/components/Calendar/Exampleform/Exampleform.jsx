@@ -26,14 +26,14 @@ function Exampleform(props) {
       <input type="hidden" name="form-name" value="contact" />
 
       <Row className="mb-4">
-        <h2>Skicka en förfrågan</h2>
+        <h2>Send a request</h2>
       </Row>
 
       <Row className="mb-4"></Row>
 
       <Row className="mb-4">
         <Form.Group as={Col} md="3" controlId="validationCustom01">
-          <Form.Label>Förnamn</Form.Label>
+          <Form.Label>Name</Form.Label>
           <Form.Control
             required
             type="text"
@@ -44,7 +44,7 @@ function Exampleform(props) {
           <Form.Control.Feedback></Form.Control.Feedback>
         </Form.Group>
         <Form.Group as={Col} md="3" controlId="validationCustom02">
-          <Form.Label>Efternamn</Form.Label>
+          <Form.Label>Surname</Form.Label>
           <Form.Control
             required
             type="text"
@@ -69,11 +69,11 @@ function Exampleform(props) {
 
       <Row className="mb-3">
         <Form.Group as={Col} md="6" >
-          <Form.Label >Önskad datum</Form.Label>
+          <Form.Label >Date requested</Form.Label>
           <Form.Control  type="text"  required value={props.dayValue} readOnly  name="Datum:"/>
         </Form.Group>
         <Form.Group as={Col} md="6" controlId="validationCustom04">
-          <Form.Label>Välj önskad tid</Form.Label>
+          <Form.Label>Choose a time</Form.Label>
           <Form.Select name="Tid:">
             <option value="12:00 - 13:00">12:00 - 13:00</option>
             <option value="13:10 - 14:10">13:10 - 14:10</option>
@@ -90,7 +90,7 @@ function Exampleform(props) {
 
       <Row className="mb-2">
         <Form.Group className="mb-1" controlId="exampleForm.ControlTextarea1" >
-        <Form.Label>Beskriv ditt fall</Form.Label>
+        <Form.Label>Describe your issue</Form.Label>
         <Form.Control as="textarea" rows={2} name="Beskrivning:"  required/>
         </Form.Group>
       </Row>
@@ -101,7 +101,7 @@ function Exampleform(props) {
         <Form.Check
         
           // required="true"
-          label="Okej med en annan tillgänglig tid denna dag"
+          label="Okay with another available time this day"
           // feedback=""
           // feedbackType="invalid"
           name="Okej med annan tid:"
@@ -111,8 +111,8 @@ function Exampleform(props) {
       </Row>
 
 
-      <Button className='btn-primary' type="submit">Skicka iväg förfrågan</Button>
-      <Button className='btn-primary' onClick={props.cancelForm}>Avbryt</Button>
+      <Button className='btn-primary' type="submit">Send</Button>
+      <Button className='btn-primary' onClick={props.cancelForm}>Cancel</Button>
 
     
 
