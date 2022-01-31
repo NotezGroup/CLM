@@ -17,7 +17,7 @@
   .highlight {
     pointer-events: none !important;
     background-color: #f0f0f0 !important;
-    color: -internal-light-dark(rgba(16, 16, 16, 0.3), rgba(255, 255, 255, 0.3)) !important;
+    color: #c9c9c9 !important;
 
  }
  
