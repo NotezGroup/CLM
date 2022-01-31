@@ -17,7 +17,7 @@
   .highlight {
     pointer-events: none !important;
     background-color: #f0f0f0 !important;
-    color: #8c8c8c !important;
+    color: #CACACA !important;
 
  }
  
@@ -132,7 +132,7 @@
     color: black;
   }
   .react-calendar__month-view__days__day--neighboringMonth {
-    color: #c9c9c9;
+    color: #e6e6e6;
   }
   .react-calendar__year-view .react-calendar__tile,
   .react-calendar__decade-view .react-calendar__tile,
