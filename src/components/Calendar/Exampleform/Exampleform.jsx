@@ -27,6 +27,9 @@ function Exampleform(props) {
 
       <Row className="mb-4">
         <h2>Send a request</h2>
+        <p className='price'>Price:</p>
+        <p className='price'>First time treatment is 1500 SEK (Membership is included)</p>
+        <p>Once first time treatment is payed you will be a member of my clinic. From there on the price will only be 750 SEK / treatment</p>
       </Row>
 
       <Row className="mb-4"></Row>
@@ -79,6 +82,8 @@ function Exampleform(props) {
             <option value="13:10 - 14:10">13:10 - 14:10</option>
             <option value="14:20 - 15:20">14:20 - 15:20</option>
             <option value="15:30 - 16:30">15:30 - 16:30</option>
+            <option value="15:30 - 16:30">16:40 - 17:40</option>
+            <option value="15:30 - 16:30">17:50 - 18:50</option>
           </Form.Select>
         </Form.Group>
         
