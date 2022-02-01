@@ -2,6 +2,8 @@ import React from 'react'
 // import {Link} from 'react-router-dom'
 import './style.css'
 
+// import { ReactComponent as Nerve } from './nervee.png';
+
 
 const ServiceSection3 = (props) => {
     return(
@@ -16,7 +18,9 @@ const ServiceSection3 = (props) => {
                 <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
                         <div className="work-wrap">
                             <div className="work-icon">
-                                <i className="fi flaticon-accident"></i>
+                                {/* <i className="fi flaticon-accident"></i> */}
+                                {/* <Nerve /> */}
+                                <img className='svgpng' src={require('./nerve.png')} alt=''/>
                             </div>
                             <div className="work-content first">
                                 <h2>Nerve Stretching</h2>
@@ -28,7 +32,8 @@ const ServiceSection3 = (props) => {
                     <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
                         <div className="work-wrap">
                             <div className="work-icon">
-                                <i className="fi flaticon-lung"></i>
+                                {/* <i className="fi flaticon-lung"></i> */}
+                                <img className='svgpng' src={require('./massage.png')} alt=''/>
                             </div>
                             <div className="work-content">
                                 <h2>Massage & Stretch for Muscles</h2>
@@ -65,7 +70,8 @@ const ServiceSection3 = (props) => {
                     <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
                         <div className="work-wrap">
                             <div className="work-icon">
-                                <i className="fi flaticon-scalpel"></i>
+                                {/* <i className="fi flaticon-scalpel"></i> */}
+                                <img className='svgpng' src={require('./tour.png')} alt=''/>
                             </div>
                             <div className="work-content">
                                 <h2>Tours</h2>
@@ -77,7 +83,8 @@ const ServiceSection3 = (props) => {
                     <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
                         <div className="work-wrap">
                             <div className="work-icon">
-                                <i className="fi flaticon-drug"></i>
+                                {/* <i className="fi flaticon-drug"></i> */}
+                                <img className='svgpng' src={require('./selfcare.png')} alt=''/>
                             </div>
                             
                             <div className="work-content">

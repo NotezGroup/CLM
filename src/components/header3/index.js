@@ -13,7 +13,7 @@ const Header = (props) => {
             <div className="header-content">
                 <div className="logo">
                     <Link to="/" title="">
-                        <img src={require('./clm-logo.jpg')} alt=''/>
+                        <img src={require('./clm-logo.png')} alt=''/>
                     </Link>
                     {/* <h1>LOGO</h1> */}
                 </div>
