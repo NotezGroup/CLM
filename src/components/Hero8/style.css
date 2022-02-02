@@ -593,7 +593,10 @@ for navbar and other
 
     .row.headertext {
         width: 80%;
+        position: relative;
+        top: -100px;
     }
+
 
     .wpo-hero-style-3 .slide-caption h2,
     .wpo-hero-style-4 .slide-caption h2,
