@@ -136,4 +136,8 @@
         position: relative;
     }
 
+    .emergencey-wrap {
+        position: relative;
+        right: 0px;
+    }
 }
