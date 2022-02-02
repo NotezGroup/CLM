@@ -4,7 +4,7 @@ import './style.css'
 const Emergencey = () => {
     return(
         <div className="emergencey-area">
-            <div className="container">
+            <div className="container"><div className='containerBox'></div>
                 <div className="emergencey-wrap">
                     <div className="row">
                         <div className="col-lg-6 col-md-6">
