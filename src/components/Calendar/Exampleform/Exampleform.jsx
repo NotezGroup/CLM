@@ -79,11 +79,12 @@ function Exampleform(props) {
           <Form.Label>Choose a time</Form.Label>
           <Form.Select name="Tid:">
             <option value="12:00 - 13:00">12:00 - 13:00</option>
-            <option value="13:10 - 14:10">13:10 - 14:10</option>
-            <option value="14:20 - 15:20">14:20 - 15:20</option>
-            <option value="15:30 - 16:30">15:30 - 16:30</option>
-            <option value="15:30 - 16:30">16:40 - 17:40</option>
-            <option value="15:30 - 16:30">17:50 - 18:50</option>
+            <option value="13:10 - 14:10">13:00 - 14:00</option>
+            <option value="14:20 - 15:20">14:00 - 15:00</option>
+            <option value="15:30 - 16:30">15:00 - 16:00</option>
+            <option value="15:30 - 16:30">16:00 - 17:00</option>
+            <option value="15:30 - 16:30">17:00 - 18:00</option>
+            <option value="15:30 - 16:30">18:00 - 19:00</option>
           </Form.Select>
         </Form.Group>
         
