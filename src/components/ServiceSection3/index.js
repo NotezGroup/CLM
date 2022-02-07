@@ -18,13 +18,12 @@ const ServiceSection3 = (props) => {
                 <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
                         <div className="work-wrap">
                             <div className="work-icon">
-                                {/* <i className="fi flaticon-accident"></i> */}
-                                {/* <Nerve /> */}
-                                <img className='svgpng' src={require('./nerve.png')} alt=''/>
+                                <i className="fi flaticon-bone"></i>
                             </div>
-                            <div className="work-content first">
-                                <h2>Nerve Stretching</h2>
-                                <p>My unique treatment also helps with ”stretching” any nerves that might be causing pain.</p>
+                            
+                            <div className="work-content">
+                                <h2>Tit Tar Bonesetting</h2>
+                                <p>Your joints can go out of alignment and cause pain as well as discomfort. I will be treating your joints and make sure they are all correctly aligned.</p>
                                 {/* <Link to="/service-details">Läs mer</Link> */}
                             </div>
                         </div>
@@ -45,12 +44,13 @@ const ServiceSection3 = (props) => {
                     <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
                         <div className="work-wrap">
                             <div className="work-icon">
-                                <i className="fi flaticon-bone"></i>
+                                {/* <i className="fi flaticon-accident"></i> */}
+                                {/* <Nerve /> */}
+                                <img className='svgpng' src={require('./nerve.png')} alt=''/>
                             </div>
-                            
-                            <div className="work-content">
-                                <h2>Tit Tar Bonesetting</h2>
-                                <p>Your joints can go out of alignment and cause pain as well as discomfort. I will be treating your joints and make sure they are all correctly aligned.</p>
+                            <div className="work-content first">
+                                <h2>Nerve Stretching</h2>
+                                <p>My unique treatment also helps with ”stretching” any nerves that might be causing pain.</p>
                                 {/* <Link to="/service-details">Läs mer</Link> */}
                             </div>
                         </div>
@@ -70,19 +70,6 @@ const ServiceSection3 = (props) => {
                     <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
                         <div className="work-wrap">
                             <div className="work-icon">
-                                {/* <i className="fi flaticon-scalpel"></i> */}
-                                <img className='svgpng' src={require('./tour.png')} alt=''/>
-                            </div>
-                            <div className="work-content">
-                                <h2>Tours</h2>
-                                <p>Every now and then we will be visiting all the Scandinavian countries for a 2-day tour to those who can’t travel all the way to my clinic.</p>
-                                {/* <Link to="/service-details">Läs mer</Link> */}
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
-                        <div className="work-wrap">
-                            <div className="work-icon">
                                 {/* <i className="fi flaticon-drug"></i> */}
                                 <img className='svgpng' src={require('./selfcare.png')} alt=''/>
                             </div>
@@ -90,6 +77,19 @@ const ServiceSection3 = (props) => {
                             <div className="work-content">
                                 <h2>Daily Selfcare</h2>
                                 <p>You will be given instructions suited specifically to your needs on how to take care of yourself after the treatment.</p>
+                                {/* <Link to="/service-details">Läs mer</Link> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12 custom-grid">
+                        <div className="work-wrap">
+                            <div className="work-icon">
+                                {/* <i className="fi flaticon-scalpel"></i> */}
+                                <img className='svgpng' src={require('./tour.png')} alt=''/>
+                            </div>
+                            <div className="work-content">
+                                <h2>Tours</h2>
+                                <p>Every now and then we will be visiting all the Scandinavian countries for a 2-day tour to those who can’t travel all the way to my clinic.</p>
                                 {/* <Link to="/service-details">Läs mer</Link> */}
                             </div>
                         </div>
