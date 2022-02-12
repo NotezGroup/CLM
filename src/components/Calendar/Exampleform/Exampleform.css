@@ -13,22 +13,15 @@
     position: fixed;
     top: 10vh;
     z-index: 90;
-    overflow-y: scroll;
+    overflow-y: none;
 }
 .price {
   margin-bottom: 0px;
 }
 
-
-@media screen and (max-width: 770px) {
-    .form-dialog {
-      width: 96%;
-      height: 600px;
-      top: 8vh;
-      margin-left: 2%;
-      overflow-y: scroll;
-    }
-  }
+.btnSend {
+  width: 250px;
+}
 
 
 .backdrop {
@@ -70,5 +63,20 @@ label.form-label {
 }
 
 textarea.form-control {
-  min-height: calc(15.5em + 0.75rem + 2px);
+  min-height: calc(4.5em + 0.75rem + 2px);
+}
+
+
+@media screen and (max-width: 770px) {
+  .form-dialog {
+    width: 96%;
+    height: 600px;
+    top: 8vh;
+    margin-left: 2%;
+    overflow-y: scroll;
+  }
+
+  textarea.form-control {
+    min-height: calc(15.5em + 0.75rem + 2px);
+  }
 }

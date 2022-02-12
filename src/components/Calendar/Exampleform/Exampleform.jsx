@@ -117,7 +117,7 @@ function Exampleform(props) {
       </Row>
 
 
-      <Button className='btn-primary' type="submit">Send</Button>
+      <Button className='btn-primary btnSend' type="submit">Send</Button>
       <Button className='btn-primary' onClick={props.cancelForm}>Cancel</Button>
 
     

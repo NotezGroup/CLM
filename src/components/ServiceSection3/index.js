@@ -11,7 +11,7 @@ const ServiceSection3 = (props) => {
             <div className="container">
                 <div className="col-12">
                     <div className="section-title-2 text-center">
-                        <h2 className='rubrik'>This is what I do</h2>
+                        <h2 className='rubrik'>Full Body Treatment</h2>
                     </div>
                 </div>
                 <div className="row">
