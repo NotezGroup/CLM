@@ -71,7 +71,7 @@ const handleSubmit = e => {
       
 
       <Row className="mb-4">
-        <h2>Book you time</h2>
+        <h2>Book your time</h2>
         <p className='price'>Price:</p>
         <p className='price'>First time treatment is 1500 SEK (Membership is included)</p>
         <p>Once first time treatment is payed you will be a member of my clinic. From there on the price will only be 750 SEK / treatment</p>
