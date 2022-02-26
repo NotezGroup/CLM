@@ -3,6 +3,14 @@
 	z-index: 9;
 }
 
+.successMsg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 50;
+}
+
 .groupBooking {
 	text-align: center;
 	position: relative;

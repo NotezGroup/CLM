@@ -97,6 +97,7 @@ class PartnerSlider extends Component {
                     <p>Group Booking or Private Treatment</p>
                     <p>If you are a group of 5 or more I can do private treatments for you all. Contact me for more info.</p>
               </div>
+              <h1 className='successMsg' style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}></h1>
               
               <Calendar />
             </div>
