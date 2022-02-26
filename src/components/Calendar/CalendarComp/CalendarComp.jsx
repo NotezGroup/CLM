@@ -65,7 +65,7 @@ async function addToDb() {
       description: document.querySelector("#description1").value,
       
     });
-    //console.log("Document written with ID: ", docRef.id);
+    console.log("Document written with ID: ", docRef.id);
   } catch (e) {
     console.error("Error adding document: " , e);
     
