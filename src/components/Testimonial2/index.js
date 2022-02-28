@@ -41,7 +41,7 @@ class TestSlider2 extends Component {
                                         <div className="wpo-testimonial-item2">
                                             <div className="wpo-testimonial-thumb">
                                                 <h4>Katarina Larsson</h4>
-                                                <span>I recommed CLM Scandinavia - Stiven</span>
+                                                <span>I recommend CLM Scandinavia - Stiven</span>
                                             </div>
                                         </div>
                                     </div>
@@ -58,7 +58,7 @@ class TestSlider2 extends Component {
                                         <div className="wpo-testimonial-item2">
                                             <div className="wpo-testimonial-thumb">
                                                 <h4>Viveca Larsson</h4>
-                                                <span>I recommed CLM Scandinavia - Stiven</span>
+                                                <span>I recommend CLM Scandinavia - Stiven</span>
                                             </div>
                                         </div>
                                     </div>
@@ -72,7 +72,7 @@ class TestSlider2 extends Component {
                                         <div className="wpo-testimonial-item2">
                                             <div className="wpo-testimonial-thumb">
                                                 <h4>Mathiaz Rickman</h4>
-                                                <span>I recommed CLM Scandinavia - Stiven</span>
+                                                <span>I recommend CLM Scandinavia - Stiven</span>
                                             </div>
                                         </div>
                                     </div>
