@@ -1,3 +1,248 @@
+/* .containerBox {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 0 500px 6000px;
+    border-color: transparent transparent #f2f2f2 transparent;
+    position: relative;
+    top: -500px;
+    right: 2500px;
+}
+
+.emergencey-area {
+    background: #d5d5d54d;
+    padding-bottom: 10px;
+    position: relative;
+    margin-top: 30px;
+    height: 100px;
+}
+
+
+
+
+.emergencey-area:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    content: "";
+    background: #fff;
+}
+.emergencey-wrap {
+    height: 400px;
+    padding: 150px;
+    box-shadow: 0px 10px 14px 0.75px rgba(58, 58, 58, 0.15);
+    background: #fff;
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    margin: 0 23px;
+    margin-top: -80px;
+    top: -750px;
+    right: 26px;
+    border-radius: 50%;
+}
+
+.emergencey-icon {
+    float: left;
+    margin-right: 20px;
+}
+
+.emergencey-text {
+    overflow: hidden;
+    margin-left: 20px;
+    padding-right: 100px;
+}
+
+.emergencey-text h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.textenWidth {
+    width: 100% !important;
+}
+
+.emergencey-text span {
+    color: #121127;
+    font-weight: 700;
+    display: block;
+    margin-top: 15px;
+}
+
+.emergencey-text ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e9e8e8;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.emergencey-text ul li:last-child {
+    margin-bottom: 0;
+}
+
+.emergencey-hour {
+    padding-left: 40px;
+    border-left: 1px solid #e9e8e8;
+}
+
+.emergencey-hour .emergencey-text span {
+    margin-top: 0;
+}
+
+.emergencey-hour .fi:before {
+    margin: 0;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  .arroww{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 50%;
+}
+.arroww span{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-bottom: 1px solid #e24545;
+    border-right: 1px solid #df7474;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arroww span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arroww span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px){
+    .emergencey-wrap {
+        margin-top: 0;
+    }
+
+    .emergencey-text h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+  
+
+}
+@media(max-width: 767px){
+    .emergencey-hour {
+        padding-left: 0px;
+        border-left: 0;
+        margin-top: 90px;
+    }
+
+    .emergencey-wrap {
+        padding: 37px;
+        box-shadow: 0px 2px 14.25px 0.75px rgba(58, 58, 58, 0.15);
+        background: #fff;
+        position: relative;
+        z-index: 10;
+        display: inline-block;
+        margin: 0 0px;
+        margin-top: -80px;
+    }
+
+    
+
+}
+
+
+@media(max-width: 450px){
+
+    .containerBox {
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 0 0 500px 5000px;
+        border-color: transparent transparent #f2f2f2 transparent;
+        position: relative;
+    }
+
+    .emergencey-wrap {
+        position: relative;
+        right: 0px;
+        margin-top: -20px;
+        width: 300px;
+        height: 400px;
+    }
+
+    .emergencey-text h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .emergencey-icon {
+        margin-top: 45px;
+        position: relative;
+        left: 20px;
+    }
+
+    .arrow {
+        position: absolute;
+        padding: 3rem; 
+        box-shadow: 1px -1px 0 1px rgb(240, 73, 73) inset;
+        -webkit-box-shadow: 2px -2px rgb(240, 73, 73) inset;
+        border: solid transparent;
+        border-width: 0 0 2rem 2rem;
+        transition: 0.2s;
+        right: 80px;
+    }
+} */
+
+
 .containerBox {
     width: 0px;
     height: 0px;

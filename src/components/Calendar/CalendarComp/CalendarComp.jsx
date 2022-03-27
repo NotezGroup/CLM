@@ -920,13 +920,11 @@ async function checkIfTimeAvailable () {
     ]
 
     
-    
-   
   
     return (
 
       <div>
-            {duplDatesArray && duplDatesArrayComplete ===true && 
+            {duplDatesArray && duplDatesArrayComplete && 
             <Calendar 
 
                 onChange={onChange} 

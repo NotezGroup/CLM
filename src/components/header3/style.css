@@ -226,8 +226,15 @@ header.fixed .header-content {
 	}
 
 	.a-linked {
-		
+		position: relative;
+		top: 10px;
 		color: black !important;
+	}
+	button.learn-more .circle .icon.arrow {
+		display: none;
+	}
+	button.learn-more .circle {
+		margin-top: 10px !important;
 	}
 	
 }
@@ -272,10 +279,17 @@ header.fixed .header-content {
 		font-size: 1.1rem;
 		color: black !important;
 	}
+	button.learn-more .circle .icon.arrow {
+		display: none;
+	}
 }
 
 
 @media (max-width: 450px) {
+
+	button.learn-more .circle .icon.arrow {
+		display: none;
+	}
 
 	.header-style-1, 
 	.header-style-2, 
@@ -354,6 +368,9 @@ header.fixed .header-content {
 		position: relative;
 		top: -80px;
 	}
+	button.learn-more .circle .icon.arrow {
+		display: none;
+	}
 }
 @media (max-width: 300px) {
 
@@ -395,5 +412,8 @@ header.fixed .header-content {
 	.cart-search-contact {
 		position: relative;
 		top: -80px;
+	}
+	button.learn-more .circle .icon.arrow {
+		display: none;
 	}
 }
