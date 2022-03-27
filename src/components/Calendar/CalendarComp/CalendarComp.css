@@ -28,6 +28,11 @@
     display: none;
  }
  
+ .react-calendar__navigation__label {
+    pointer-events: none;
+}
+
+
   @media (max-width: 820px) {
     .react-calendar {
       width: 95%;
