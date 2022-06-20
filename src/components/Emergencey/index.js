@@ -35,7 +35,7 @@ const Emergencey = () => {
                                 <div className="emergencey-text">
                                     <h2>Emergency Service</h2>
                                     <p>please contact us for more information to get a booking faster than what is available </p>
-                                    <span>Call : +4676 23 30 381</span>
+                                    <span>Call : </span>
                                 </div>
 
                             </div>

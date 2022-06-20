@@ -25,7 +25,7 @@ const ContactArea = (props) => {
                         
                        <div className='infoContainer'>
                             <div className="info-item">
-                                <h2 className='kontaktrubrik plats'>Allétorget 14, Hyllie, Malmö</h2>
+                                <h2 className='kontaktrubrik plats'>Malmö</h2>
                                 <div className="info-wrap">
                                     <div className="info-icon">
                                         <img src={contact1} alt=""/>
@@ -36,7 +36,7 @@ const ContactArea = (props) => {
                                 </div>
                             </div>
                             <div className="info-item">
-                                <h2 className='kontaktrubrik'>booking@clmscandinavia.se</h2>
+                                <h2 className='kontaktrubrik'>email adress</h2>
                                 <div className="info-wrap">
                                     <div className="info-icon">
                                         <img src={contact2} alt=""/>
@@ -47,7 +47,7 @@ const ContactArea = (props) => {
                                 </div>
                             </div>
                             <div className="info-item">
-                                <h2 className='kontaktrubrik'>+4676 23 30 381</h2>
+                                <h2 className='kontaktrubrik'>telefon</h2>
                                 <div className="info-wrap">
                                     <div className="info-icon">
                                         <img src={contact3} alt=""/>
